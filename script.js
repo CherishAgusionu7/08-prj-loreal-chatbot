@@ -5,9 +5,7 @@ const chatWindow = document.getElementById("chatWindow");
 
 /*
 Replace this later with your Cloudflare Worker URL.
-
-During the final version, it should look similar to:
-https://your-worker-name.your-account.workers.dev
+and make sure to set up the Worker with your OpenAI API key as a secret named OPENAI
 */
 const API_URL = "https://loreal-beauty-assistant.agusionucherish.workers.dev/";
 
