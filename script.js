@@ -46,8 +46,7 @@ const messages = [
 /* Display the initial welcome message */
 chatWindow.innerHTML = `
   <div class="msg ai">
-    Welcome to the L'Oréal Beauty Assistant.
-    Ask me about skincare, haircare, makeup, fragrance, or personalized beauty routines.
+    Welcome to the L'Oréal Beauty Assistant! I'm here to help you with skincare, haircare, makeup, fragrance, and personalized beauty routines.
   </div>
 `;
 
