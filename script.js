@@ -94,7 +94,7 @@ chatForm.addEventListener("submit", async (event) => {
   }
 
   /* Show a temporary loading message */
-  const loadingBubble = addMessage("Thinking...", "ai");
+  const loadingBubble = addMessage("Hmmm... Let me think", "ai");
 
   try {
     const response = await fetch(API_URL, {
